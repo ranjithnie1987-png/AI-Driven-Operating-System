@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osai"
+version = "1.0.0"
+description = "AI-driven operating-system research toolkit: OS kernel simulator, virtual memory, storage, DVFS, Meta-Fusion ensembles"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "xgboost", "lightgbm", "shap", "statsmodels",
+                "matplotlib", "seaborn", "networkx", "plotly"]
+
+[tool.setuptools]
+packages = ["osai"]
